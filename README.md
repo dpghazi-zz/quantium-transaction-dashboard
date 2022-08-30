@@ -2,7 +2,7 @@
 
 ## **Project Description**
 - This transaction dashboard is a single-page application meant for one of Quantium’s largest supermarket clients, Soul Foods, who has recently increased the price of their most delicious candy bars, Pink Morsels.
-- This web application uses Python and Dash that displays its sales data with a radio button, allowing the client to see how the change has affected the overall profits and analyze their product’s sales by region.target="_blank">Pylon</a>. 
+- This web application uses Python and Dash that displays its sales data with a radio button, allowing the client to see how the change has affected the overall profits and analyze their product’s sales by region.
 
 ### **Overview**
 
