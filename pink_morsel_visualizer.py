@@ -11,7 +11,7 @@ COLORS = {
 }
 
 # load in data
-data = pandas.read_csv(DATA_PATH)
+data = pd.read_csv(DATA_PATH)
 data = data.sort_values(by="date")
 
 # initialize dash
