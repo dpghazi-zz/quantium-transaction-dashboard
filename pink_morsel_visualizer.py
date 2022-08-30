@@ -33,3 +33,14 @@ visualization = dcc.Graph(
     id="visualization",
     figure=generate_figure(data)
 )
+
+# create the header
+header = html.H1(
+    "Pink Morsel Visualizer",
+    id="header",
+    style={
+        "background-color": COLORS["secondary"],
+        "color": COLORS["font"],
+        "border-radius": "20px"
+    }
+)
