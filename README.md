@@ -20,9 +20,9 @@
     - Executed the test suite using PyTest to make sure each test passes.
 - **Automating Tests**
   - Implemented a bash script which automatically runs the test suite and does the following:
-    - Activate the project virtual environment.
-    - Execute the test suite.
-    - Return exit code 0 if all tests passed, or 1 if something went wrong.
+    - Activates the project virtual environment.
+    - Executes the test suite.
+    - Returns exit code 0 if all tests passed, or 1 if something went wrong.
 
 ## Ticket Result
 ![Kapture 2022-08-29 at 23 13 50](https://user-images.githubusercontent.com/94224903/187363392-509cf841-c2d1-42db-a468-249be0cd740c.gif)
