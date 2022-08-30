@@ -76,3 +76,17 @@ def update_graph(region):
     # generate a new line chart with the filtered data
     figure = generate_figure(trimmed_data)
     return figure
+
+# define the app layout
+dash_app.layout = html.Div(
+    [
+        header,
+        visualization,
+        region_picker_wrapper
+    ],
+    style={
+        "textAlign": "center",
+        "background-color": COLORS["primary"],
+        "border-radius": "20px"
+    }
+)
