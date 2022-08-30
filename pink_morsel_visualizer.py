@@ -60,3 +60,19 @@ region_picker_wrapper = html.Div(
         "font-size": "150%"
     }
 )
+
+# define the region picker callback
+@dash_app.callback(
+    Output(visualization, "figure"),
+    Input(region_picker, "value")
+)
+def update_graph(region):
+    # filter the dataset
+    if region == "all":
+        trimmed_data = data
+    else:
+        trimmed_data = data[data["region"] == region]
+
+    # generate a new line chart with the filtered data
+    figure = generate_figure(trimmed_data)
+    return figure
