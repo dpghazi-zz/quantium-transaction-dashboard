@@ -44,3 +44,19 @@ header = html.H1(
         "border-radius": "20px"
     }
 )
+
+# region picker
+region_picker = dcc.RadioItems(
+    ["north", "east", "south", "west", "all"],
+    "north",
+    id="region_picker",
+    inline=True
+)
+region_picker_wrapper = html.Div(
+    [
+        region_picker
+    ],
+    style={
+        "font-size": "150%"
+    }
+)
