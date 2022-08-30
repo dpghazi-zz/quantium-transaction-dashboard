@@ -3,7 +3,6 @@
 ## **Project Description**
 - This transaction dashboard is a single-page application meant for one of Quantium’s largest supermarket clients, Soul Foods, who has recently increased the price of their most delicious candy bars, Pink Morsels.
 - This web application uses Python and Dash that displays its sales data with a radio button, allowing the client to see how the change has affected the overall profits and analyze their product’s sales by region.target="_blank">Pylon</a>. 
-- The user's public IP addresses are fetched from the <a href="https://www.ipify.org/" target="_blank">ipify API</a> and the packet latency can be streamed using <a href="https://www.npmjs.com/package/websocket" target="_blank">WebSocket connections</a>.
 
 ### **Overview**
 
