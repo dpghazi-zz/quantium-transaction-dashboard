@@ -26,6 +26,7 @@
 
 ## Ticket Result
 ![Kapture 2022-08-29 at 23 13 50](https://user-images.githubusercontent.com/94224903/187363392-509cf841-c2d1-42db-a468-249be0cd740c.gif)
+![Screen Shot 2022-08-29 at 11 17 51 PM](https://user-images.githubusercontent.com/94224903/187377510-ea1dbc09-3f8d-4d77-9922-20b2ede6c1a4.jpg)
 
 *Surprisingly, the sales were higher after the Pink Morsel price increase on 01/15/2021*
 
