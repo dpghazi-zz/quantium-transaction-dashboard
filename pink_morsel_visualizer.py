@@ -90,3 +90,7 @@ dash_app.layout = html.Div(
         "border-radius": "20px"
     }
 )
+
+# this is only true if the module is executed as the program entrypoint
+if __name__ == '__main__':
+    dash_app.run_server()
